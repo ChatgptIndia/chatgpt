@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova AI Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">✦ Nova AI</div>
+      <button id="newChat">＋ New chat</button>
+
+      <h4>Recent</h4>
+      <div id="history"></div>
+
+      <div class="bottom">
+        <button id="themeBtn">☾ Dark mode</button>
+        <button id="clearBtn">⌫ Clear chats</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header>
+        <button id="menuBtn">☰</button>
+        <b>● Nova AI</b>
+      </header>
+
+      <section id="chat">
+        <div class="welcome">
+          <div class="logo">✦</div>
+          <h1>How can I help?</h1>
+          <p>Ask me anything or choose a suggestion below.</p>
+
+          <div class="suggestions">
+            <button data-prompt="Explain AI in simple words">Explain AI simply</button>
+            <button data-prompt="Give me 5 project ideas">Give project ideas</button>
+            <button data-prompt="Help me learn English">Learn English</button>
+            <button data-prompt="Write a JavaScript program">Write JavaScript</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="composer-area">
+        <form id="form">
+          <textarea id="input" placeholder="Message Nova AI..." rows="1"></textarea>
+          <button id="send" type="submit">➤</button>
+        </form>
+        <small>Nova AI demo interface</small>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
